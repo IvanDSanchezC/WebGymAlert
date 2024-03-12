@@ -5,4 +5,4 @@ Ejecuta ng serve en un servidor o máquina local. Luego instala dependencias con
 
  Navega a http://localhost:4200/. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente. 
 
-Se creo la maquetación para las pantalla de login (http://localhost:4200/login) y completar perfil (http://localhost:4200//perfil)
+Se creo la maquetación para las pantalla de login (http://localhost:4200/login) y completar perfil (http://localhost:4200/perfil)
