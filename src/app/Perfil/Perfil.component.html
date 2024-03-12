@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completar Perfil</title>
+    <link rel="stylesheet" href="Perfil.component.css">
+</head>
+<body>
+    <div class="background-container">
+        <img src="../../assets/Images/Ilustrations.jpeg" alt="Background Image">
+    </div>
+    <div class="login-container">
+        <div class="column1">
+            <div class="content">
+                <img src="../../assets/Images/LogoMediano.jpg" alt="Image" class="logoImage">
+            </div>
+            <div class="content">
+                <h1 class="title">Completa tu perfil</h1>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="content">
+                <h2>Sistema de medición</h2>
+                <div class="radio-group">
+                    <input type="radio" id="choice1" name="choice1">
+                    <label for="choice1">Métrico</label><br>
+                    <input type="radio" id="choice2" name="choice1">
+                    <label for="choice2">Imperial</label>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Género</h2>
+                <div class="radio-group">
+                    <input type="radio" id="choice3" name="choice2">
+                    <label for="choice3">Masculino</label><br>
+                    <input type="radio" id="choice4" name="choice2">
+                    <label for="choice4">Femenino</label><br>
+                    <input type="radio" id="choice5" name="choice2">
+                    <label for="choice5">Otro</label>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Medidas</h2>
+                <div class="form-group">
+                    <label for="input1">Altura (cm):</label>
+                    <input type="text" id="input1" name="input1">
+                </div>
+                <div class="form-group">
+                    <label for="input2">Peso (kg):</label>
+                    <input type="text" id="input2" name="input2">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <button type="submit" (click)="paginaLogin()">Aceptar</button>
+        </div>
+    </div>
+</body>
+</html>

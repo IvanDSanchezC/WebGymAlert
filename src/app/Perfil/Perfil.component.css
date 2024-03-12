@@ -1,0 +1,79 @@
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.09;
+    z-index: 0;
+    background-repeat: repeat;
+}
+
+.login-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.column1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.column1 .content {
+    padding: 20px;
+}
+
+.column2 {
+    display: flex;
+    justify-content: center; 
+    margin: 0 20px; 
+}
+
+.column2 .content {
+    padding: 40px;
+    border: 4px solid blue; 
+    margin: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+    margin-top: 20px; 
+}
+
+button {
+    background-color: white;
+    border: 2px solid blue;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 255, 0.8);
+    color: white;
+}
+
+a {
+    margin: 10px;
+    color: #526634;
+}
+
+p,
+h1,
+h2,
+label {
+    color: #526634;
+}
+
+
+.column2 .content input[type="radio"] {
+    margin: 0 7px;
+}
